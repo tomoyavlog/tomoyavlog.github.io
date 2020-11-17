@@ -1,0 +1,52 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li{
+  list-style: none;
+}
+
+header {
+  background-color: #808080;
+  color: #fff;
+  height: 90px;
+}
+
+.header-li li{
+  float: left;
+   padding: 33px 20px;
+}
+
+.header-logo{
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+}
+
+.top-wrapper{
+  height: 900px;
+  background-image: url(background1.png);
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.select-wrapper{
+  padding-top: 200px;
+  height: 900px;
+  background-image: url(background2.png);
+  background-size: cover;
+  text-align: center;
+}
+.select{
+  float:left;
+  width:33%;
+}
+.source {
+width: 300px;
+height: 300px;
+}
+
+.select-icon p{
+  font-size: 50px;
+  opacity: 0.5;
+}
